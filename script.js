@@ -36,8 +36,8 @@ function efectoHabilidades() {
 }
 
 const btn = document.getElementById("buttonEnviar");
-
-document.getElementById("form").addEventListener("submit", function (event) {
+const form = document.getElementById("form")
+form.addEventListener("submit", function (event) {
   event.preventDefault();
 
   btn.value = "Enviando...";
@@ -49,6 +49,7 @@ document.getElementById("form").addEventListener("submit", function (event) {
     () => {
       btn.value = "Enviar Mensaje";
       alert("Mensaje enviado correctamente!");
+      form.reset();
     },
     (err) => {
       btn.value = "Enviar Mensaje";
