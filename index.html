@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>LP Desarrollador Web</title>
+  </head>
+
+  <body>
+    <section id="inicio">
+      <div class="contenido">
+        <header>
+          <div class="contenido-header">
+            <h1>AO</h1>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a
+                    href="#inicio"
+                    class="seleccionado"
+                    onclick="seleccionar(this)"
+                    >INICIO</a
+                  >
+                </li>
+                <li>
+                  <a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a>
+                </li>
+                <li>
+                  <a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a>
+                </li>
+                <li>
+                  <a href="#contacto" onclick="seleccionar(this)">CONTACTO</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="redes">
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+            </div>
+          </div>
+        </header>
+        <div class="presentacion">
+          <p class="bienvenida">Bienvenidos</p>
+          <h2>Soy <span>Andrés Obando</span>, Desarrollador Web</h2>
+          <a href="#portfolio">Ver mis proyectos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobremi">
+      <div class="contenedor-foto">
+        <img src="img/Yo.png" alt="" />
+      </div>
+      <div class="sobremi">
+        <p class="titulo-seccion">Sobre Mi</p>
+        <h2>Hola, Soy <span>Andrés Obando</span></h2>
+        <h3>Desarrollador Web</h3>
+        <p>
+          No dispongo años de experiencia laboral en el area del desarrollo web
+          pero si tengo muchos conocimientos adquiridos por varios años de
+          estudio y la realizacion de varios proyectos estudiantiles para
+          ponerlos en práctica en mis futuros empleos como desarrollador.
+        </p>
+        <p>Si deseas trabajar conmigo por favor contactame.</p>
+        <a href="#">Descargar CV</a>
+      </div>
+    </section>
+
+    <div class="contenedor-skills" id="skills">
+      <h3>HABILIDADES</h3>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Html & Css</p>
+          <span class="porcentaje">85%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="html"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Javascript</p>
+          <span class="porcentaje">75%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="js"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>React</p>
+          <span class="porcentaje">75%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="react"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"> </span>Node.js</p>
+          <span class="porcentaje">65%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="node"></div>
+        </div>
+      </div>
+    </div>
+
+    <section id="portfolio">
+      <h3 class="titulo-seccion">Mis Proyectos</h3>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/Proyecto-1.PNG" alt="" />
+          <div class="info">
+            <h4>Proyecto estudiantil</h4>
+            <a href="https://htmlcssproyecto.netlify.app/" target="marco">Ver proyecto</a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/Proyecto-2.PNG" alt="" />
+          <div class="info">
+            <h4>Proyecto estudiantil</h4>
+            <a href="https://piedrapapeltijeras-ja.netlify.app/" target="marco">Ver proyecto</a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/Proyecto-3.PNG" alt="" />
+          <div class="info">
+            <h4>Proyecto estudiantil</h4>
+            <a href="https://etch-a-sketch-ja.netlify.app/" target="marco">Ver proyecto</a>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/Proyecto-4.PNG" alt="" />
+          <div class="info">
+            <h4>Proyecto estudiantil</h4>
+            <a href="https://calculadora-ja.netlify.app/" target="marco">Ver proyecto</a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/Proyecto-5.PNG" alt="" />
+          <div class="info">
+            <h4>Proyecto estudiantil</h4>
+            <a href="https://ecommerce-ja.netlify.app/" target="marco">Ver proyecto</a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/Proyecto-6.PNG" alt="" />
+          <div class="info">
+            <h4>Proyecto estudiantil</h4>
+            <a href="https://frasesaleatorias-ja.netlify.app/" target="marco">Ver proyecto</a>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/Proyecto-7.PNG" alt="" />
+          <div class="info">
+            <h4>Proyecto estudiantil</h4>
+            <a href="https://appclima-ja.netlify.app/" target="marco">Ver proyecto</a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/Proyecto-8.PNG" alt="" />
+          <div class="info">
+            <h4>Proyecto estudiantil</h4>
+            <a href="https://rickandmorty-ja.netlify.app/" target="marco">Ver proyecto</a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/Proyecto-9.PNG" alt="" />
+          <div class="info">
+            <h4>Proyecto estudiantil</h4>
+            <a href="https://usercrud-ja.netlify.app/" target="marco">Ver proyecto</a>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="img/Proyecto-10.PNG" alt="" />
+          <div class="info">
+            <h4>Proyecto estudiantil</h4>
+            <a href="https://pokedex-ja.netlify.app/" target="marco">Ver proyecto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h3 class="titulo-seccion">Contáctame ahora</h3>
+      <div class="contenedor-form">
+        <form id="form">
+          <div class="fila mitad">
+            <input
+              type="text"
+              placeholder="Nombre Completo *"
+              class="input-mitad"
+              name="nombre"
+            />
+            <input
+              type="email"
+              placeholder="Dirección de Email"
+              class="input-mitad"
+              name="email"
+            />
+          </div>
+          <div class="fila">
+            <input
+              type="text"
+              placeholder="Tema..."
+              class="input-full"
+              name="tema"
+            />
+          </div>
+          <div class="fila">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Tu Mensaje..."
+              class="input-full"
+              name="mensaje"
+            ></textarea>
+          </div>
+
+          <input type="submit" id="buttonEnviar" value="Enviar Mensaje" class="btn-enviar" />
+        </form>
+
+        <script
+          type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+        ></script>
+
+        <script type="text/javascript">
+          emailjs.init("AqfPSPlx7mGTJv-5t");
+        </script>
+
+      </div>
+    </section>
+
+    <footer>
+      <p>Todos los derechos reservados - 2022</p>
+      <div class="redes">
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+
+  
+</html>
