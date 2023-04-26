@@ -209,13 +209,9 @@ html {
 }
 
 #sobremi .sobremi a:hover {
-  background-color: #ff5080;
+  background-color: #79ff50;
   color: #fff;
 }
-
-/* *********************/
-/* seccion S K I L L S */
-/* *********************/
 
 .contenedor-skills {
   background: linear-gradient(#79ff50, rgba(33, 16, 16, 0.5)),
