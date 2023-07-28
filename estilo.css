@@ -9,9 +9,7 @@
 html {
   scroll-behavior: smooth;
 }
-/* *********************/
-/* seccion I N I C I O */
-/* *********************/
+
 
 #inicio {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -59,6 +57,10 @@ html {
 
 #inicio .contenido header .contenido-header nav ul li a:hover {
   color: #79ff50;
+}
+
+#inicio .contenido header .contenido-header .redes {
+  font-size: 25px;
 }
 
 #inicio .contenido header .contenido-header .redes a {
@@ -134,9 +136,6 @@ html {
   color: #fff;
   display: none;
 }
-/* *********************/
-/* seccion S O B R E  M I */
-/* *********************/
 
 #sobremi {
   max-width: 1100px;
@@ -147,14 +146,11 @@ html {
 }
 
 #sobremi .contenedor-foto {
-  max-width: 400px;
-  margin-right: 80px;
+  max-width: 800px;
 }
 
 #sobremi .contenedor-foto img {
-  padding: 20px;
   width: 100%;
-  border-radius: 20px;
   background-color: #f3f3f3;
 }
 
@@ -439,9 +435,8 @@ html {
   background-color: #79ff50;
   color: #fff;
 }
-/* *********************/
-/* seccion F O O T E R */
-/* *********************/
+
+
 
 footer {
   background-color: #000;
@@ -457,9 +452,7 @@ footer a {
   margin: 5px;
   font-size: 26px;
 }
-/* *********************/
-/* seccion R E S P O N S I V E */
-/* *********************/
+
 
 @media screen and (max-width: 800px) {
   .redes {
@@ -490,7 +483,8 @@ footer a {
   #inicio .contenido .presentacion h2 {
     font-size: 40px;
   }
-  /* seccion SOBRE MI */
+
+
   #sobremi {
     padding: 50px 0;
     display: block;
@@ -509,7 +503,8 @@ footer a {
     font-size: 25px;
     text-align: center;
   }
-  /* seccion MIS SERVICIOS */
+
+
   #servicios {
     padding: 50px 15px;
   }
@@ -519,11 +514,13 @@ footer a {
   #servicios .fila .servicio {
     margin: 10px auto;
   }
-  /* seccion HABLIDADES MI */
+
+
   .contenedor-skills {
     padding: 50px 20px;
   }
-  /* seccion PORTFOLIO */
+
+
   #portfolio {
     padding: 50px 0;
   }
@@ -533,7 +530,8 @@ footer a {
   #portfolio .fila .proyecto {
     margin: 10px auto;
   }
-  /* seccion CONTACTO */
+
+
   #contacto {
     padding: 50px 15px;
   }
