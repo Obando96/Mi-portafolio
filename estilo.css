@@ -269,7 +269,7 @@ html {
 
 .contenedor-skills .skill .barra .barra-progreso4 {
   background-color: #fff;
-  width: 75%;
+  width: 85%;
   height: 6px;
   animation: progreso4 2s forwards;
 }
@@ -306,7 +306,7 @@ html {
     width: 0;
   }
   100% {
-    width: 75%;
+    width: 85%;
   }
 }
 
@@ -346,6 +346,21 @@ html {
   filter: grayscale(1);
   object-fit: cover;
   transition: 0.5s;
+}
+
+#portfolio .fila .proyecto.proyecto-transicion .imagen-login {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+#portfolio .fila .proyecto.proyecto-transicion:hover .imagen-panel {
+  opacity: 0;
+}
+
+#portfolio .fila .proyecto.proyecto-transicion:hover .imagen-login {
+  opacity: 1;
 }
 
 #portfolio .fila .proyecto:hover img {
